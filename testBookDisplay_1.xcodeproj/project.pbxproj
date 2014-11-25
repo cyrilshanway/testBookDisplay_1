@@ -14,6 +14,9 @@
 		7665115D1A2331A70046F22C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7665115C1A2331A70046F22C /* Images.xcassets */; };
 		766511601A2331A70046F22C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7665115E1A2331A70046F22C /* LaunchScreen.xib */; };
 		7665116C1A2331A70046F22C /* testBookDisplay_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7665116B1A2331A70046F22C /* testBookDisplay_1Tests.m */; };
+		766511771A2331C10046F22C /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766511761A2331C10046F22C /* BookViewController.m */; };
+		766511791A23324D0046F22C /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 766511781A23324D0046F22C /* backGround.jpg */; };
+		7665117B1A2332540046F22C /* mario.ico in Resources */ = {isa = PBXBuildFile; fileRef = 7665117A1A2332540046F22C /* mario.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		766511651A2331A70046F22C /* testBookDisplay_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testBookDisplay_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7665116A1A2331A70046F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7665116B1A2331A70046F22C /* testBookDisplay_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testBookDisplay_1Tests.m; sourceTree = "<group>"; };
+		766511751A2331C10046F22C /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		766511761A2331C10046F22C /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		766511781A23324D0046F22C /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		7665117A1A2332540046F22C /* mario.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = mario.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 				7665115C1A2331A70046F22C /* Images.xcassets */,
 				7665115E1A2331A70046F22C /* LaunchScreen.xib */,
 				7665114F1A2331A60046F22C /* Supporting Files */,
+				766511751A2331C10046F22C /* BookViewController.h */,
+				766511761A2331C10046F22C /* BookViewController.m */,
 			);
 			path = testBookDisplay_1;
 			sourceTree = "<group>";
@@ -96,6 +105,8 @@
 		7665114F1A2331A60046F22C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7665117A1A2332540046F22C /* mario.ico */,
+				766511781A23324D0046F22C /* backGround.jpg */,
 				766511501A2331A60046F22C /* Info.plist */,
 				766511511A2331A60046F22C /* main.m */,
 			);
@@ -200,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7665115B1A2331A60046F22C /* Main.storyboard in Resources */,
+				7665117B1A2332540046F22C /* mario.ico in Resources */,
+				766511791A23324D0046F22C /* backGround.jpg in Resources */,
 				766511601A2331A70046F22C /* LaunchScreen.xib in Resources */,
 				7665115D1A2331A70046F22C /* Images.xcassets in Resources */,
 			);
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				766511581A2331A60046F22C /* ViewController.m in Sources */,
+				766511771A2331C10046F22C /* BookViewController.m in Sources */,
 				766511551A2331A60046F22C /* AppDelegate.m in Sources */,
 				766511521A2331A60046F22C /* main.m in Sources */,
 			);
